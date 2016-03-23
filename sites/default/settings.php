@@ -714,6 +714,8 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * Keep this code block at the end of this file to take full effect.
  */
+/* @TO-DO: This is just for testing purposes, will be removed in production*/
+
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
