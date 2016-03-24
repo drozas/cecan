@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/stable/templates/form/input.html.twig */
-class __TwigTemplate_9b57781a0ea597e6a0ec629749486f3d5c44444342e19501aea1e5586a36da56 extends Twig_Template
+/* modules/contrib/addtoany/templates/addtoany-standard.html.twig */
+class __TwigTemplate_38dccdcf04b20cc2dfcb4a088571246b4b152aff9569f251c38b9a2bd00b3236 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -16,13 +16,13 @@ class __TwigTemplate_9b57781a0ea597e6a0ec629749486f3d5c44444342e19501aea1e5586a3
     protected function doDisplay(array $context, array $blocks = array())
     {
         $tags = array();
-        $filters = array();
+        $filters = array("raw" => 12);
         $functions = array();
 
         try {
             $this->env->getExtension('sandbox')->checkSecurity(
                 array(),
-                array(),
+                array('raw'),
                 array()
             );
         } catch (Twig_Sandbox_SecurityError $e) {
@@ -39,18 +39,15 @@ class __TwigTemplate_9b57781a0ea597e6a0ec629749486f3d5c44444342e19501aea1e5586a3
             throw $e;
         }
 
-        // line 13
-        echo "<input";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : null), "html", null, true));
-        echo " />";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["children"]) ? $context["children"] : null), "html", null, true));
+        // line 12
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar((isset($context["addtoany_html"]) ? $context["addtoany_html"] : null)));
         echo "
 ";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/stable/templates/form/input.html.twig";
+        return "modules/contrib/addtoany/templates/addtoany-standard.html.twig";
     }
 
     public function isTraitable()
@@ -60,20 +57,19 @@ class __TwigTemplate_9b57781a0ea597e6a0ec629749486f3d5c44444342e19501aea1e5586a3
 
     public function getDebugInfo()
     {
-        return array (  43 => 13,);
+        return array (  43 => 12,);
     }
 }
 /* {#*/
 /* /***/
 /*  * @file*/
-/*  * Theme override for an 'input' #type form element.*/
+/*  * Default theme implementation to standard AddToAny buttons.*/
 /*  **/
 /*  * Available variables:*/
-/*  * - attributes: A list of HTML attributes for the input element.*/
-/*  * - children: Optional additional rendered elements.*/
+/*  * - addtoany_html: HTML for AddToAny buttons.*/
 /*  **/
-/*  * @see template_preprocess_input()*/
+/*  * @ingroup themeable*/
 /*  *//* */
 /* #}*/
-/* <input{{ attributes }} />{{ children }}*/
+/* {{ addtoany_html|raw }}*/
 /* */
