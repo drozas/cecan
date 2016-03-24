@@ -1,7 +1,7 @@
 <?php
 
-/* {# inline_template_start #}{{ value|nl2br }} */
-class __TwigTemplate_d3e79bd6029fd1ab1d50dd676e1f6555a2880e7bdc0733b6b806b540b4a45fd4 extends Twig_Template
+/* core/themes/stable/templates/field/image-style.html.twig */
+class __TwigTemplate_333ecc9fef89ba39c3d765f79dabeb267769015f6a0ef0a76fc17e2f7724a6e7 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -16,13 +16,13 @@ class __TwigTemplate_d3e79bd6029fd1ab1d50dd676e1f6555a2880e7bdc0733b6b806b540b4a
     protected function doDisplay(array $context, array $blocks = array())
     {
         $tags = array();
-        $filters = array("nl2br" => 1);
+        $filters = array();
         $functions = array();
 
         try {
             $this->env->getExtension('sandbox')->checkSecurity(
                 array(),
-                array('nl2br'),
+                array(),
                 array()
             );
         } catch (Twig_Sandbox_SecurityError $e) {
@@ -39,13 +39,15 @@ class __TwigTemplate_d3e79bd6029fd1ab1d50dd676e1f6555a2880e7bdc0733b6b806b540b4a
             throw $e;
         }
 
-        // line 1
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed(nl2br($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["value"]) ? $context["value"] : null), "html", null, true)));
+        // line 18
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["image"]) ? $context["image"] : null), "html", null, true));
+        echo "
+";
     }
 
     public function getTemplateName()
     {
-        return "{# inline_template_start #}{{ value|nl2br }}";
+        return "core/themes/stable/templates/field/image-style.html.twig";
     }
 
     public function isTraitable()
@@ -55,7 +57,25 @@ class __TwigTemplate_d3e79bd6029fd1ab1d50dd676e1f6555a2880e7bdc0733b6b806b540b4a
 
     public function getDebugInfo()
     {
-        return array (  43 => 1,);
+        return array (  43 => 18,);
     }
 }
-/* {# inline_template_start #}{{ value|nl2br }}*/
+/* {#*/
+/* /***/
+/*  * @file*/
+/*  * Theme override for an image using a specific image style.*/
+/*  **/
+/*  * Available variables:*/
+/*  * - attributes: HTML attributes for the image, including the following:*/
+/*  *   - src: Full URL or relative path to the image file.*/
+/*  *   - class: One or more classes to be applied to the image.*/
+/*  *   - width: The width of the image (if known).*/
+/*  *   - height: The height of the image (if known).*/
+/*  *   - title: The title of the image.*/
+/*  *   - alt: The alternative text for the image.*/
+/*  **/
+/*  * @see template_preprocess_image_style()*/
+/*  *//* */
+/* #}*/
+/* {{ image }}*/
+/* */
