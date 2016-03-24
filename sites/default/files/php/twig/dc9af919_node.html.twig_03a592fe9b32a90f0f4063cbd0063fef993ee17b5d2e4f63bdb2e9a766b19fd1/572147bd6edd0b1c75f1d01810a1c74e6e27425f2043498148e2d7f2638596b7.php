@@ -1,7 +1,7 @@
 <?php
 
-/* themes/businessgroup_zymphonies_theme/templates/content/node--cecan-member-profile.html.twig */
-class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b9b244 extends Twig_Template
+/* themes/businessgroup_zymphonies_theme/templates/content/node.html.twig */
+class __TwigTemplate_718186de5241a5859403538cf8106e195264a29686f1542ffaed9363b8c7ab72 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -15,13 +15,13 @@ class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("set" => 67, "if" => 86);
+        $tags = array("set" => 67, "if" => 80, "trans" => 90);
         $filters = array("clean_class" => 69);
         $functions = array("attach_library" => 76);
 
         try {
             $this->env->getExtension('sandbox')->checkSecurity(
-                array('set', 'if'),
+                array('set', 'if', 'trans'),
                 array('clean_class'),
                 array('attach_library')
             );
@@ -54,51 +54,62 @@ class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["attributes"]) ? $context["attributes"] : null), "addClass", array(0 => (isset($context["classes"]) ? $context["classes"] : null)), "method"), "html", null, true));
         echo ">
 
+  ";
+        // line 79
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_prefix"]) ? $context["title_prefix"] : null), "html", null, true));
+        echo "
+  ";
+        // line 80
+        if ( !(isset($context["page"]) ? $context["page"] : null)) {
+            // line 81
+            echo "    <h2";
+            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_attributes"]) ? $context["title_attributes"] : null), "html", null, true));
+            echo ">
+      <a href=\"";
+            // line 82
+            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["url"]) ? $context["url"] : null), "html", null, true));
+            echo "\" rel=\"bookmark\">";
+            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["label"]) ? $context["label"] : null), "html", null, true));
+            echo "</a>
+    </h2>
+  ";
+        }
+        // line 85
+        echo "  ";
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_suffix"]) ? $context["title_suffix"] : null), "html", null, true));
+        echo "
 
-
-<h1>";
-        // line 81
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_first_name", array()), "#items", array(), "array"), "value", array()) . " ") . $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_last_name", array()), "#items", array(), "array"), "value", array())), "html", null, true));
-        echo "</h1>
-
-<div class=\"row\">
-<div class=\"col-md-6\">
-
-";
-        // line 86
-        if ($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_job_title", array())) {
-            // line 87
-            echo "\t";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["content"]) ? $context["content"] : null), "body", array()), "html", null, true));
+  ";
+        // line 87
+        if ((isset($context["display_submitted"]) ? $context["display_submitted"] : null)) {
+            // line 88
+            echo "    <footer class=\"comment-submitted\">
+      <div";
+            // line 89
+            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["author_attributes"]) ? $context["author_attributes"] : null), "addClass", array(0 => "node__submitted"), "method"), "html", null, true));
+            echo ">
+        ";
+            // line 90
+            echo t("Submitted by @author_name on @date", array("@author_name" => (isset($context["author_name"]) ? $context["author_name"] : null), "@date" => (isset($context["date"]) ? $context["date"] : null), ));
+            // line 91
+            echo "        ";
+            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["metadata"]) ? $context["metadata"] : null), "html", null, true));
             echo "
-";
+      </div>
+    </footer>
+  ";
         }
-        // line 89
-        echo "</div>
-
-<div class=\"col-md-4\">
-";
-        // line 92
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_picture", array()), "html", null, true));
+        // line 95
         echo "
-";
-        // line 93
-        if ($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_job_title", array())) {
-            // line 94
-            echo "\t";
-            if ($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field__profile_organisation", array())) {
-                // line 95
-                echo "\t\t<h3>";
-                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, ((($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field_profile_job_title", array()), "#items", array(), "array"), "value", array()) . " (") . $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["content"]) ? $context["content"] : null), "field__profile_organisation", array()), "#items", array(), "array"), "value", array())) . ")"), "html", null, true));
-                echo "</h3>
-\t";
-            }
-        }
-        // line 98
+  <div";
+        // line 96
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["content_attributes"]) ? $context["content_attributes"] : null), "addClass", array(0 => "node__content"), "method"), "html", null, true));
+        echo ">
+    ";
+        // line 97
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["content"]) ? $context["content"] : null), "html", null, true));
         echo "
-</div>
-</div>
-
+  </div>
 
 </article>
 ";
@@ -106,7 +117,7 @@ class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b
 
     public function getTemplateName()
     {
-        return "themes/businessgroup_zymphonies_theme/templates/content/node--cecan-member-profile.html.twig";
+        return "themes/businessgroup_zymphonies_theme/templates/content/node.html.twig";
     }
 
     public function isTraitable()
@@ -116,7 +127,7 @@ class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b
 
     public function getDebugInfo()
     {
-        return array (  98 => 98,  91 => 95,  88 => 94,  86 => 93,  82 => 92,  77 => 89,  71 => 87,  69 => 86,  61 => 81,  54 => 77,  50 => 76,  48 => 73,  47 => 72,  46 => 71,  45 => 70,  44 => 69,  43 => 67,);
+        return array (  110 => 97,  106 => 96,  103 => 95,  95 => 91,  93 => 90,  89 => 89,  86 => 88,  84 => 87,  78 => 85,  70 => 82,  65 => 81,  63 => 80,  59 => 79,  54 => 77,  50 => 76,  48 => 73,  47 => 72,  46 => 71,  45 => 70,  44 => 69,  43 => 67,);
     }
 }
 /* {#*/
@@ -197,29 +208,26 @@ class __TwigTemplate_90dc851bf41b42e4140ecfc26745623cb7049d9ecdaf3629aa39fd0cd5b
 /* {{ attach_library('classy/node') }}*/
 /* <article{{ attributes.addClass(classes) }}>*/
 /* */
+/*   {{ title_prefix }}*/
+/*   {% if not page %}*/
+/*     <h2{{ title_attributes }}>*/
+/*       <a href="{{ url }}" rel="bookmark">{{ label }}</a>*/
+/*     </h2>*/
+/*   {% endif %}*/
+/*   {{ title_suffix }}*/
 /* */
+/*   {% if display_submitted %}*/
+/*     <footer class="comment-submitted">*/
+/*       <div{{ author_attributes.addClass('node__submitted') }}>*/
+/*         {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}*/
+/*         {{ metadata }}*/
+/*       </div>*/
+/*     </footer>*/
+/*   {% endif %}*/
 /* */
-/* <h1>{{ content.field_profile_first_name['#items'].value ~ ' ' ~ content.field_profile_last_name['#items'].value }}</h1>*/
-/* */
-/* <div class="row">*/
-/* <div class="col-md-6">*/
-/* */
-/* {% if content.field_profile_job_title %}*/
-/* 	{{ content.body }}*/
-/* {% endif %}*/
-/* </div>*/
-/* */
-/* <div class="col-md-4">*/
-/* {{ content.field_profile_picture }}*/
-/* {% if content.field_profile_job_title %}*/
-/* 	{% if content.field__profile_organisation %}*/
-/* 		<h3>{{ content.field_profile_job_title['#items'].value ~ ' (' ~ content.field__profile_organisation['#items'].value ~ ')'}}</h3>*/
-/* 	{% endif %}*/
-/* {% endif %}*/
-/* */
-/* </div>*/
-/* </div>*/
-/* */
+/*   <div{{ content_attributes.addClass('node__content') }}>*/
+/*     {{ content }}*/
+/*   </div>*/
 /* */
 /* </article>*/
 /* */
