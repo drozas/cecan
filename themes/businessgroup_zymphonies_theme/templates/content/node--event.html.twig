@@ -84,22 +84,25 @@
   {% endif %}
   {{ title_suffix }}
   
-<h1>{{ content.field_profile_first_name['#items'].value ~ ' ' ~ content.field_profile_last_name['#items'].value }}</h1>
+{{ content.body }}
 
 <div class="row">
-<div class="col-md-6">
-	{{ content.body }}
+<div class="col-md-12">
+	<h2> More information:</h2>
+</div>
+
+<div class="col-md-8">
+	<h2>This event is currently <b>{{ content.field_event_status[0] }}</b></h2>
+	<h2>Contact: {{ content.field_event_contact[0] }}</h2>
 </div>
 
 <div class="col-md-4">
-{{ content.field_profile_picture }}
-{% if content.field_profile_job_title['#items'].value %}
-	{% if content.field__profile_organisation['#items'].value %}
-		<h3>{{ content.field_profile_job_title['#items'].value ~ ' (' ~ content.field__profile_organisation['#items'].value ~ ')'}}</h3>
+	<h3> {{ content.field_event_date }}</h3>
+	{% if content.field_event_end_date %}
+		<h3> {{ content.field_event_end_date }}</h3>
 	{% endif %}
-{% endif %}
-
 </div>
+
 </div>
 
 
