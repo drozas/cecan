@@ -588,3 +588,11 @@ ul.links.inline li{
   display: block;
   color: #333;
 }
+
+/*drozas: tweaks for CECAN site*/
+.full-name-profile-view{
+	text-align: center;
+}
+.views-field-field-profile-picture{
+    margin-left: 50px;
+}
