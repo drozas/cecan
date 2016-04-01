@@ -704,6 +704,24 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+/* These values are just for testing purposes in the local
+ * instance.
+ *
+ * @Nigel: THIS WILL NEED TO BE CHANGED IN THE DEPLOYMENT SITE
+ * (and probably the CRESS temporary domain as well)
+ *
+ * Further information:
+ * - https://www.drupal.org/node/1992030
+ * - http://drupal.stackexchange.com/questions/145690/untrusted-host-localhost-in/145994#145994
+ */
+$settings['trusted_host_patterns'] = array(
+		'^cecan\.ac.uk$',
+		'^www\.cecan\.ac.uk$',
+		'^dev\.cecan\.ac.uk$',
+		'^cress\.soc\.surrey\.ac.uk$',
+		'^localhost$',
+);
+
 /**
  * Load local development override configuration, if available.
  *
@@ -717,6 +735,12 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+
+/* These values are just for testing purposes in the local
+ * instance.
+ * 
+ * @Nigel: THIS WILL NEED TO BE CHANGED IN THE DEPLOYMENT SITE
+ */
 $databases['default']['default'] = array (
   'database' => 'cecan',
   'username' => 'cecan',
