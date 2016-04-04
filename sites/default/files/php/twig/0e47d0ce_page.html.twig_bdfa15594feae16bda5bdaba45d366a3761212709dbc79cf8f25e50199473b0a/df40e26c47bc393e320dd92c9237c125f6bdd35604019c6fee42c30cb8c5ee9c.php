@@ -626,13 +626,14 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
 <!-- @drozas: modifiying credit manually -->
 
 <div class=\"container\">
-  <div class=\"row\"><div class=\"col-md-10 col-md-offset-1\"><h3 class=\"text-center\">Funding entities</h3></div></div>
+  <div class=\"row\"><div class=\"col-md-12\"><h3 class=\"text-center\">Funding entities</h3></div></div>
   <div class=\"row\">
-  \t<div class=\"col-md-2 col-md-offset-1\"><img src=\"/cecan/sites/default/files/inline-images/Esrc_logo.png\" class=\"img-responsive img-thumbnail\"></div>
-    <div class=\"col-md-2\"><img src=\"/cecan/sites/default/files/inline-images/43___Selected.jpg\" class=\"img-responsive img-thumbnail\"></div>
- \t<div class=\"col-md-2\"><img src=\"/cecan/sites/default/files/inline-images/349.png\" class=\"img-responsive img-thumbnail\"></div>
- \t<div class=\"col-md-2\"><img src=\"/cecan/sites/default/files/inline-images/Natural_Environment_Research_Council.jpg\" class=\"img-responsive img-thumbnail\"></div>
- \t<div class=\"col-md-2\"><img src=\"/cecan/sites/default/files/inline-images/Food_Standards_Agency.svg_.png\" class=\"img-responsive img-thumbnail\"></div>
+  \t<div class=\"col-md-2\"><a href=\"http://www.esrc.ac.uk/\"><img src=\"/sites/default/files/inline-images/esrc_logo.png\" class=\"img-responsive img-thumbnail\"></a></div>
+    <div class=\"col-md-2\"><a href=\"https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\"><img src=\"/sites/default/files/inline-images/defra_logo.png\" class=\"img-responsive img-thumbnail\"></a></div>
+ \t<div class=\"col-md-2\"><a href=\"https://www.gov.uk/government/organisations/department-of-energy-climate-change\"><img src=\"/sites/default/files/inline-images/decc_logo.png\" class=\"img-responsive img-thumbnail\"></a></div>
+ \t<div class=\"col-md-2\"><a href=\"http://www.nerc.ac.uk/\"><img src=\"/sites/default/files/inline-images/nerc_logo.jpg\" class=\"img-responsive img-thumbnail\"></a></div>
+ \t<div class=\"col-md-2\"><a href=\"https://www.gov.uk/government/organisations/environment-agency\"><img src=\"/sites/default/files/inline-images/ea_logo.png\" class=\"img-responsive img-thumbnail\"></a></div>
+ \t<div class=\"col-md-2\"><a href=\"http://www.food.gov.uk/\"><img src=\"/sites/default/files/inline-images/fsa_logo.png\" class=\"img-responsive img-thumbnail\"></a></div>
 
     </div>
   </div>
@@ -643,9 +644,9 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
 
       <!-- Credit link -->
       ";
-        // line 392
+        // line 393
         if ((isset($context["show_credit_link"]) ? $context["show_credit_link"] : null)) {
-            // line 393
+            // line 394
             echo "      \t<div class=\"row\">
         \t<div class=\"col-md-3 col-md-offset-6\">
           <h6>© CECAN. This website is powered by <a href=\"http://www.drupal.org\">Drupal</a>. The source code is licensed under a <a href=\"http://www.gnu.org/licenses/gpl.html\">GPLv3 License</a> and can be checkout from <a href=\"https://github.com/drozas/cecan\">Github</a>.</h6>
@@ -653,7 +654,7 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
         </div>
       ";
         }
-        // line 399
+        // line 400
         echo "      <!-- End Credit link -->
       
     </div>
@@ -663,18 +664,18 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
 
 <!-- Google map -->
 ";
-        // line 407
+        // line 408
         if (((isset($context["is_front"]) ? $context["is_front"] : null) && $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "google_map", array()))) {
-            // line 408
+            // line 409
             echo "  <div class=\"google_map\">
     ";
-            // line 409
+            // line 410
             echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "google_map", array()), "html", null, true));
             echo "
   </div>
 ";
         }
-        // line 412
+        // line 413
         echo "<!-- End Google map -->";
     }
 
@@ -690,7 +691,7 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
 
     public function getDebugInfo()
     {
-        return array (  678 => 412,  672 => 409,  669 => 408,  667 => 407,  657 => 399,  649 => 393,  647 => 392,  623 => 370,  617 => 366,  612 => 363,  606 => 361,  603 => 360,  597 => 358,  594 => 357,  588 => 355,  585 => 354,  579 => 352,  576 => 351,  570 => 349,  567 => 348,  561 => 346,  559 => 345,  555 => 343,  553 => 342,  548 => 340,  542 => 336,  540 => 335,  534 => 331,  525 => 324,  519 => 322,  517 => 321,  513 => 320,  508 => 317,  502 => 315,  500 => 314,  496 => 313,  490 => 309,  484 => 307,  482 => 306,  478 => 305,  472 => 301,  466 => 299,  464 => 298,  460 => 297,  451 => 290,  449 => 289,  445 => 288,  438 => 283,  430 => 277,  424 => 275,  422 => 274,  418 => 273,  412 => 269,  406 => 267,  404 => 266,  400 => 265,  394 => 261,  388 => 259,  386 => 258,  382 => 257,  374 => 251,  372 => 250,  362 => 242,  356 => 239,  353 => 238,  351 => 237,  343 => 231,  336 => 227,  332 => 226,  329 => 225,  327 => 224,  322 => 221,  315 => 217,  311 => 216,  308 => 215,  306 => 214,  301 => 211,  294 => 207,  290 => 206,  287 => 205,  285 => 204,  277 => 199,  271 => 195,  265 => 192,  262 => 191,  260 => 190,  249 => 181,  241 => 176,  235 => 172,  233 => 171,  227 => 167,  218 => 160,  212 => 158,  210 => 157,  206 => 156,  201 => 153,  195 => 151,  193 => 150,  189 => 149,  184 => 146,  178 => 144,  176 => 143,  172 => 142,  164 => 136,  162 => 135,  158 => 134,  152 => 130,  144 => 125,  139 => 122,  137 => 121,  131 => 117,  123 => 112,  118 => 109,  116 => 108,  107 => 101,  99 => 96,  92 => 92,  81 => 83,  75 => 82,  73 => 81,  67 => 77,  61 => 75,  59 => 74,  43 => 60,);
+        return array (  679 => 413,  673 => 410,  670 => 409,  668 => 408,  658 => 400,  650 => 394,  648 => 393,  623 => 370,  617 => 366,  612 => 363,  606 => 361,  603 => 360,  597 => 358,  594 => 357,  588 => 355,  585 => 354,  579 => 352,  576 => 351,  570 => 349,  567 => 348,  561 => 346,  559 => 345,  555 => 343,  553 => 342,  548 => 340,  542 => 336,  540 => 335,  534 => 331,  525 => 324,  519 => 322,  517 => 321,  513 => 320,  508 => 317,  502 => 315,  500 => 314,  496 => 313,  490 => 309,  484 => 307,  482 => 306,  478 => 305,  472 => 301,  466 => 299,  464 => 298,  460 => 297,  451 => 290,  449 => 289,  445 => 288,  438 => 283,  430 => 277,  424 => 275,  422 => 274,  418 => 273,  412 => 269,  406 => 267,  404 => 266,  400 => 265,  394 => 261,  388 => 259,  386 => 258,  382 => 257,  374 => 251,  372 => 250,  362 => 242,  356 => 239,  353 => 238,  351 => 237,  343 => 231,  336 => 227,  332 => 226,  329 => 225,  327 => 224,  322 => 221,  315 => 217,  311 => 216,  308 => 215,  306 => 214,  301 => 211,  294 => 207,  290 => 206,  287 => 205,  285 => 204,  277 => 199,  271 => 195,  265 => 192,  262 => 191,  260 => 190,  249 => 181,  241 => 176,  235 => 172,  233 => 171,  227 => 167,  218 => 160,  212 => 158,  210 => 157,  206 => 156,  201 => 153,  195 => 151,  193 => 150,  189 => 149,  184 => 146,  178 => 144,  176 => 143,  172 => 142,  164 => 136,  162 => 135,  158 => 134,  152 => 130,  144 => 125,  139 => 122,  137 => 121,  131 => 117,  123 => 112,  118 => 109,  116 => 108,  107 => 101,  99 => 96,  92 => 92,  81 => 83,  75 => 82,  73 => 81,  67 => 77,  61 => 75,  59 => 74,  43 => 60,);
     }
 }
 /* {#*/
@@ -1068,13 +1069,14 @@ class __TwigTemplate_d7b6eb01d7426676f6f0fb384af4b816ecb08e6dcdd79fab454b115c37a
 /* <!-- @drozas: modifiying credit manually -->*/
 /* */
 /* <div class="container">*/
-/*   <div class="row"><div class="col-md-10 col-md-offset-1"><h3 class="text-center">Funding entities</h3></div></div>*/
+/*   <div class="row"><div class="col-md-12"><h3 class="text-center">Funding entities</h3></div></div>*/
 /*   <div class="row">*/
-/*   	<div class="col-md-2 col-md-offset-1"><img src="/cecan/sites/default/files/inline-images/Esrc_logo.png" class="img-responsive img-thumbnail"></div>*/
-/*     <div class="col-md-2"><img src="/cecan/sites/default/files/inline-images/43___Selected.jpg" class="img-responsive img-thumbnail"></div>*/
-/*  	<div class="col-md-2"><img src="/cecan/sites/default/files/inline-images/349.png" class="img-responsive img-thumbnail"></div>*/
-/*  	<div class="col-md-2"><img src="/cecan/sites/default/files/inline-images/Natural_Environment_Research_Council.jpg" class="img-responsive img-thumbnail"></div>*/
-/*  	<div class="col-md-2"><img src="/cecan/sites/default/files/inline-images/Food_Standards_Agency.svg_.png" class="img-responsive img-thumbnail"></div>*/
+/*   	<div class="col-md-2"><a href="http://www.esrc.ac.uk/"><img src="/sites/default/files/inline-images/esrc_logo.png" class="img-responsive img-thumbnail"></a></div>*/
+/*     <div class="col-md-2"><a href="https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs"><img src="/sites/default/files/inline-images/defra_logo.png" class="img-responsive img-thumbnail"></a></div>*/
+/*  	<div class="col-md-2"><a href="https://www.gov.uk/government/organisations/department-of-energy-climate-change"><img src="/sites/default/files/inline-images/decc_logo.png" class="img-responsive img-thumbnail"></a></div>*/
+/*  	<div class="col-md-2"><a href="http://www.nerc.ac.uk/"><img src="/sites/default/files/inline-images/nerc_logo.jpg" class="img-responsive img-thumbnail"></a></div>*/
+/*  	<div class="col-md-2"><a href="https://www.gov.uk/government/organisations/environment-agency"><img src="/sites/default/files/inline-images/ea_logo.png" class="img-responsive img-thumbnail"></a></div>*/
+/*  	<div class="col-md-2"><a href="http://www.food.gov.uk/"><img src="/sites/default/files/inline-images/fsa_logo.png" class="img-responsive img-thumbnail"></a></div>*/
 /* */
 /*     </div>*/
 /*   </div>*/
