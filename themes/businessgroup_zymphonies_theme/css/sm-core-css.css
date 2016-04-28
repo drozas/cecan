@@ -20,6 +20,7 @@
   color: white;
   line-height: 23px;
   text-decoration: none;
+  font-size: 20px;
 }
 .menu-base-theme a.current {
   background: #006892
