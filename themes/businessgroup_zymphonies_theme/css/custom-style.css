@@ -172,21 +172,25 @@ ul.links.inline li{
   margin: 0;
   border: 0;
   background: #333;
-  color: #fff;
+  color: white;
+  font-size: 18px;
 }
 
 .footer-menu ul{
   margin: 10px 0;
   padding: 0;
+  color: white;
 }
 
 .footer-menu nav li{
   display: inline-block;
+   color: white;
 }
 
 .footer-menu nav li a{
   display: block;
   padding: 4px 20px 4px 0;
+  color: white;
 }
 
 .google_map p,
