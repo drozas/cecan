@@ -604,3 +604,9 @@ ul.links.inline li{
 	float: right;
 	padding-bottom: 10px;
 }
+#funding_entities{
+	padding-top: 5px;
+	font-size: 20px;
+	text-align: center;
+	style: bold;
+}
