@@ -626,3 +626,11 @@ ul.links.inline li{
 	max-width: 100%;
 	border: none none;
 }
+
+#block-fblikebox > h2.title {
+	background: #348bc2 none repeat scroll 0 0;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    margin: 0;
+    padding: 10px 15px;
+}
