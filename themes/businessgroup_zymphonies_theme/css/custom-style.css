@@ -635,3 +635,7 @@ ul.links.inline li{
     margin: 0;
     padding: 10px 15px;
 }
+
+.video-column {
+	padding: 10px;
+}
