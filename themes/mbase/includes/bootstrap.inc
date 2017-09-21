@@ -128,6 +128,10 @@ function mbase_preprocess_page(&$variables) {
   if (_mbase_setting('navigation_primary')) {
     $menu = \Drupal::menuTree()->load('main', new MenuTreeParameters());
     $variables['primary_nav'] = \Drupal::menuTree()->build($menu);
+    $manip = array(
+    		['callable'=>'menu.default_tree_manipulators:generateIndexAndSort']
+    );
+    $menu = \Drupal::menuTree()->transform($menu,$manip);
     $variables['primary_nav']['#attributes']['class'][] = 'navbar-nav';
     $variables['primary_nav']['#attributes']['class'][] = 'primary-menu';
   }
