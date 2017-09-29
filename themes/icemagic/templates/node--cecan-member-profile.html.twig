@@ -84,7 +84,7 @@
   {% endif %}
   {{ title_suffix }}
   
-<h1>{{ content.field_profile_first_name['#items'].value ~ ' ' ~ content.field_profile_last_name['#items'].value }}</h1>
+<h2>{{ content.field_profile_first_name['#items'].value ~ ' ' ~ content.field_profile_last_name['#items'].value }}</h2>
 
 <div class="row">
 <div class="col-md-6">
@@ -95,7 +95,7 @@
 {{ content.field_profile_picture }}
 {% if content.field_profile_job_title['#items'].value %}
 	{% if content.field__profile_organisation['#items'].value %}
-		<h3>{{ content.field_profile_job_title['#items'].value ~ ' (' ~ content.field__profile_organisation['#items'].value ~ ')'}}</h3>
+		<h4>{{ content.field_profile_job_title['#items'].value ~ ' (' ~ content.field__profile_organisation['#items'].value ~ ')'}}</h4>
 	{% endif %}
 {% endif %}
 
