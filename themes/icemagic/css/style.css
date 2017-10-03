@@ -512,5 +512,17 @@ header#navbar .aqua-scrolled {
 	padding-top: 25px;
 }
 
+// drozas: hide rss button in taxonomy views
+
+#feed-icons{
+	display: none;
+	
+}
+
+
+.feed-icon{
+	display: none;
+	
+}
 
 
