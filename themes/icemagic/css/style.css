@@ -467,7 +467,7 @@ header#navbar .aqua-scrolled {
 	border-colour: #ddd;
 }
 
-// drozas: added to provide style to cecan members
+// drozas: added to provide style to cecan members, fellows and associates thumbnails views. 
 
 .view-cecan-members-profiles{
 	margin-top: 20em;
@@ -499,3 +499,18 @@ header#navbar .aqua-scrolled {
 #profile-thumbnail-name{
 	text-align: center;
 }
+
+// drozas: fixing padding of addToAny list
+
+.addtoany_list {
+	display: flex;
+	padding-top: 25px;
+}
+
+.a2a_kit {
+	display: flex;
+	padding-top: 25px;
+}
+
+
+
