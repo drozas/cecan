@@ -466,3 +466,36 @@ header#navbar .aqua-scrolled {
 .image-style-thumbnail-case-studies-200-x-150:hover{
 	border-colour: #ddd;
 }
+
+// drozas: added to provide style to cecan members
+
+.view-cecan-members-profiles{
+	margin-top: 20em;
+	padding: 4px;
+	
+}
+
+.view-id-cecan_members_profiles{
+	margin-top: 1em;
+	padding: 4px;
+	
+}
+
+.image-style-profile-picture-min{
+	border: 3px;
+	border-style: solid;
+	border-colour: #eee;
+	padding: 3px;
+	border-radius: 5px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.image-style-profile-picture-min:hover{
+	border-colour: #ddd;
+}
+
+#profile-thumbnail-name{
+	text-align: center;
+}
