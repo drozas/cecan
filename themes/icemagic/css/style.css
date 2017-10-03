@@ -436,3 +436,33 @@ header#navbar .aqua-scrolled {
 .footer-wrap .footer-social a {
   font-size: 1.1em;
 }
+
+//drozas: added to style up the case studies view
+
+.view-id-case_studies{
+	margin-top: 20em;
+	padding: 4px;
+	
+}
+
+#block-views-block-case-studies-block-1{
+	margin-top: 1em;
+	padding: 4px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+}
+
+.image-style-thumbnail-case-studies-200-x-150{
+	width: 100%;
+	border: 3px;
+	border-style: solid;
+	border-colour: #eee;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.image-style-thumbnail-case-studies-200-x-150:hover{
+	border-colour: #ddd;
+}
