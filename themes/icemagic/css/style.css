@@ -516,13 +516,34 @@ header#navbar .aqua-scrolled {
 
 #feed-icons{
 	display: none;
-	
 }
 
 
 .feed-icon{
 	display: none;
-	
+}
+
+// drozas: added to fix issue with video titles
+#video-title-thumbnail{
+	padding: 50px;
+}
+
+.video-title-thumbnail{
+	padding-top: 10px;
+	width: 400px; 
+	min-width:400px; 
+	max-width:400px; 
+	height:80px; 
+	min-height:80px;  
+	max-height:80px;
+}
+
+#video-embed-thumbnail{
+	padding: 50px;
+}
+
+.video-embed-thumbnail{
+	padding-bottom: 30px;
 }
 
 
