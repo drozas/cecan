@@ -547,4 +547,17 @@ header#navbar .aqua-scrolled {
 	padding-bottom: 30px;
 }
 
+// drozas: added to provide style to blog categories block
+#btn-blog-post-category{
+	padding: 1px;
+}
 
+.btn-blog-post-category{
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
