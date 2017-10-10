@@ -570,13 +570,13 @@ header#navbar .aqua-scrolled {
 }
 
 // drozas: style for homepage blocks
-.intro-text{
+.hp-intro-text{
 	font-size: 25px;
 	text-align: left;
 	font-weight: 900;
 }
 
-#intro-text{
+#hp-intro-text{
 	font-size: 25px;
 	text-align: left;
 	font-weight: 900;
