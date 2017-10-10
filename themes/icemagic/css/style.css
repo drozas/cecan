@@ -568,16 +568,3 @@ header#navbar .aqua-scrolled {
 #btn-blog-post-full:hover{
     opacity: 0.6;
 }
-
-// drozas: style for homepage blocks
-.hp-intro-text{
-	font-size: 25px;
-	text-align: left;
-	font-weight: 900;
-}
-
-#hp-intro-text{
-	font-size: 25px;
-	text-align: left;
-	font-weight: 900;
-}
