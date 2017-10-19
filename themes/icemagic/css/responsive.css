@@ -180,4 +180,15 @@
   .xs-force-menu-vr ul.menu li a:after {
     content: '';
   }
+  
+//drozas Added to hide the static logo block
+.block-funderlogosfixednonresponsivesmaller{
+    display: none;
+}
+
+#block-funderlogosfixednonresponsivesmaller{
+    display: none;
+    
+}
+  
 }

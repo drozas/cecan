@@ -568,3 +568,24 @@ header#navbar .aqua-scrolled {
 #btn-blog-post-full:hover{
     opacity: 0.6;
 }
+
+// drozas: added to solve issue with logos. A fixed one is employed for desktop, a bootstrap one for cellphones
+/*@media (max-width: 480px) {
+	.block-funderlogosfixednonresponsivesmaller{
+    font-size: 90px;
+    padding-top: 600px;
+}
+
+#block-funderlogosfixednonresponsivesmaller{
+    font-size: 90px;
+    padding-top: 600px;
+    
+}
+
+}*/
+
+
+
+
+
+
