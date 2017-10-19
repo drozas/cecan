@@ -163,16 +163,6 @@
     padding-bottom: 0px;
   }
   
-  //drozas: Added to hide the static logo block for desktops
-.block-founderlogos2x2x2x2x2xs{
-    display: none;
-}
-
-#block-founderlogos2x2x2x2x2xs{
-    display: none;
-    
-}
-  
 }
 
 /*--------------------Header Auqa ends--------------------*/
@@ -198,6 +188,20 @@
 }
 
 #block-funderlogosfixednonresponsivesmaller{
+    display: none;
+    
+}
+  
+}
+
+@media (min-width: 767px) {
+
+  //drozas: Added to hide the static logo block for desktops
+.block-founderlogos2x2x2x2x2xs{
+    display: none;
+}
+
+#block-founderlogos2x2x2x2x2xs{
     display: none;
     
 }
