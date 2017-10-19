@@ -162,6 +162,17 @@
     padding-top: 10px;
     padding-bottom: 0px;
   }
+  
+  //drozas: Added to hide the static logo block for desktops
+.block-founderlogos2x2x2x2x2xs{
+    display: none;
+}
+
+#block-founderlogos2x2x2x2x2xs{
+    display: none;
+    
+}
+  
 }
 
 /*--------------------Header Auqa ends--------------------*/
@@ -181,7 +192,7 @@
     content: '';
   }
   
-//drozas Added to hide the static logo block
+//drozas: Added to hide the static logo block for cellphones
 .block-funderlogosfixednonresponsivesmaller{
     display: none;
 }
