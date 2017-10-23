@@ -197,7 +197,15 @@
 #block-funderlogosfixednonresponsivesmaller{
     display: none;
 }
-  
+
+
+// Welcome home block
+.block-homepagewelcomeblock{
+    display: none;
+}
+#block-homepagewelcomeblock{
+    display: none;   
+} 
 }
 
 @media (min-width: 1024px) {
@@ -212,14 +220,4 @@
 #block-founderlogos2x2x2x2x2xs{
     display: none;   
 }
-
-// Welcome home block
-.block-homepagecontentabout{
-    display: none;
-}
-#block-homepagecontentabout{
-    display: none;   
-}
-
-  
 }
