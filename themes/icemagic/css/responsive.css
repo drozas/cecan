@@ -185,29 +185,41 @@
 }
 
 @media (max-width: 1024px) {
-  
-//drozas: Added to hide the static logo block for cellphones
+
+// drozas: Added to hide blocks from cellphones 
+
+// Fixed logos block
+
 .block-funderlogosfixednonresponsivesmaller{
     display: none;
 }
 
 #block-funderlogosfixednonresponsivesmaller{
     display: none;
-    
 }
   
 }
 
 @media (min-width: 1024px) {
 
-  //drozas: Added to hide the static logo block for desktops
+// drozas: Added to hide blocks from desktop views
+
+
+// Responsive logos block
 .block-founderlogos2x2x2x2x2xs{
     display: none;
 }
-
 #block-founderlogos2x2x2x2x2xs{
-    display: none;
-    
+    display: none;   
 }
+
+// Welcome home block
+.block-homepagecontentabout{
+    display: none;
+}
+#block-homepagecontentabout{
+    display: none;   
+}
+
   
 }
