@@ -571,14 +571,11 @@ header#navbar .aqua-scrolled {
 
 // drozas: added to style the buttons from the welcome block
 .welcome-buttons{
-    font-size: 14px;
     padding-top: 50px;
-    margin-top: 80px;
 }
 #welcome-buttons{
-    font-size: 14px;
     padding-top: 50px;
-    margin-top: 80px;
+	padding-left: 20px;
 }
 
 
