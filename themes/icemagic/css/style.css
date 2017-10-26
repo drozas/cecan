@@ -585,6 +585,7 @@ header#navbar .aqua-scrolled {
     padding-bottom: 1px;
     padding-right: 10px;
     padding-top: 1px;
+    box-shadow: 2px 2px grey;
 }
 
 
