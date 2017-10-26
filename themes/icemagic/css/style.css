@@ -569,20 +569,11 @@ header#navbar .aqua-scrolled {
     opacity: 0.6;
 }
 
-// drozas: added to solve issue with logos. A fixed one is employed for desktop, a bootstrap one for cellphones
-/*@media (max-width: 480px) {
-	.block-funderlogosfixednonresponsivesmaller{
-    font-size: 90px;
-    padding-top: 600px;
+// drozas: added to style the buttons from the welcome block
+.welcome-buttons{
+    font-size: 14px;
+    padding-top: 50px;
 }
-
-#block-funderlogosfixednonresponsivesmaller{
-    font-size: 90px;
-    padding-top: 600px;
-    
-}
-
-}*/
 
 
 
