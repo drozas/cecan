@@ -93,6 +93,9 @@
 
 <div class="col-md-4">
 {{ content.field_cecan_fellow_picture }}
+{% if content.field_cecan_fellow_position['#items'].value %}
+		<h4>{{ '(' ~ content.field_cecan_fellow_position['#items'].value ~ ')'}}</h4>
+{% endif %}
 </div>
 </div>
 
