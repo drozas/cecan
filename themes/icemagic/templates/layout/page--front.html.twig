@@ -118,12 +118,9 @@
     {% if page.content_positive %}
       <section class = "content-positive plugin-content">
 
-
-      <h3>Three equal columns</h3>
-      <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
       <div class="row">
-        <div class="col-md-4"><dd>{{ drupal_entity('block', 'views_block__blog_posts_block_2_2') }}</dd></div>
-        <div class="col-md-4"><dd>{{ drupal_entity('block', 'views_block__news_block_3') }}</dd></div>
+        <div class="col-md-6 col-xs-12 text-left"><dd>{{ drupal_entity('block', 'views_block__blog_posts_block_2_2') }}</dd></div>
+        <div class="col-md-6 col-xs-12 text-left"><dd>{{ drupal_entity('block', 'views_block__news_block_3') }}</dd></div>
       </div>
       
       </section>
