@@ -592,10 +592,6 @@ header#navbar .aqua-scrolled {
 }
 
 // drozas: resizing new logo
-header#navbar a.logo img {
-  height: 26px;
-}
-
 a.logo.navbar-btn.pull-left img {
   height: 26px;
   margin-top: 8px;
