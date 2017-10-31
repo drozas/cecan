@@ -207,9 +207,8 @@
     display: none;   
 } 
 
-
 // Main logo
-a.logo.navbar-btn.pull-left img {
+header#navbar a.logo img {
   display: none;
 }
 
