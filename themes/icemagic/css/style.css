@@ -595,3 +595,7 @@ header#navbar .aqua-scrolled {
 header#navbar a.logo img {
   height: 26px;
 }
+
+a.logo.navbar-btn.pull-left img {
+  height: 10px;
+}
