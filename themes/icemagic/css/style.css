@@ -594,6 +594,13 @@ header#navbar a.logo img {
 	 height: 26px;
 }
 
+.logo {
+	height: 300px;
+}
+
+#logo {
+	height: 600px;
+}
 
 
 
