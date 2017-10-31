@@ -15,8 +15,10 @@
   .navbar-brand {
     padding: 8px;
   }
+  
+  //drozas: Reduced in responsive view
   header#navbar a.logo img {
-    height: 30px;
+    height: 22px;
   }
   header#navbar .navbar-header {
     margin-top: 0px;
@@ -206,11 +208,6 @@
 #block-homepagewelcomeblock{
     display: none;   
 } 
-
-// Main logo
-header#navbar a.logo img {
-  display: none;
-}
 
 }
 
