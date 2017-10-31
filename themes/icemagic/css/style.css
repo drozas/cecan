@@ -80,7 +80,7 @@ header#navbar .navbar-text {
 
 // drozas: resizing new logo
 header#navbar a.logo img {
-  height: 26px;
+  height: 40px;
 }
 
 header#navbar #nav.affix {
@@ -589,4 +589,9 @@ header#navbar .aqua-scrolled {
     padding-right: 10px;
     padding-top: 1px;
     box-shadow: 2px 2px grey;
+}
+
+// drozas: resizing new logo
+header#navbar a.logo img {
+  height: 26px;
 }
