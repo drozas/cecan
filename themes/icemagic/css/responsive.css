@@ -206,6 +206,13 @@
 #block-homepagewelcomeblock{
     display: none;   
 } 
+
+
+// Main logo
+a.logo.navbar-btn.pull-left img {
+  display: none;
+}
+
 }
 
 @media (min-width: 1024px) {
