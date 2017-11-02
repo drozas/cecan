@@ -613,3 +613,8 @@ header#navbar .navbar-header{
 html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top header#navbar.navbar.navbar-fixed-top.affix-top.scroll-top{
 	background-color: #183E6C;		
 }
+
+// drozas: adding more padding to the home icon
+.breadcrumb li.item-1::before{
+	padding-right: 8px;
+}
