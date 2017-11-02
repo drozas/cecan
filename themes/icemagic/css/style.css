@@ -600,3 +600,8 @@ a.logo.navbar-btn.pull-left img {
   height: 26px;
   margin-top: 7px;
 }
+
+// drozas: issues with transparency
+header#navbar li > a:focus, header#navbar li > a:hover, header#navbar li > a.active, header#navbar li a:focus, header#navbar li a:hover, header#navbar li a.active, header#navbar .dropdown-menu > li > a:focus, header#navbar .dropdown-menu > li > a:hover, header#navbar .dropdown-menu > li > a.active, header#navbar .dropdown-menu > li > a, body.path-frontpage header#navbar.navbar-static-top, body.path-frontpage header#navbar.navbar-fixed-top.affix-top, header#navbar nav, header#navbar .navbar-nav li a, header#navbar .navbar-nav > li > a:focus, header#navbar .navbar-nav > li > a:hover, header#navbar .navbar-nav > li > a.active, header#navbar .navbar-nav > li.open, header#navbar .navbar-nav .dropdown a:focus, header#navbar .navbar-nav .dropdown a:hover, header#navbar .navbar-nav .dropdown a.active, .btn-auqa5, .footer-wrap .nav > li > a:focus, .footer-wrap .nav > li > a:hover{
+	background-color: #183E6C;
+}
