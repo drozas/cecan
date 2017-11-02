@@ -609,3 +609,7 @@ header#navbar .navbar-header{
 html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top header#navbar.navbar.navbar-fixed-top.scroll-top.affix-top div.container div.navbar-header{
 	background-color: #183E6C;	
 }
+
+html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top header#navbar.navbar.navbar-fixed-top.affix-top.scroll-top{
+	background-color: #183E6C;		
+}
