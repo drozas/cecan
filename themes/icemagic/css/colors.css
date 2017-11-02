@@ -327,7 +327,8 @@ header#navbar .navbar-nav .dropdown a.active,
 .btn-auqa5,
 .footer-wrap .nav>li>a:focus,
 .footer-wrap .nav>li>a:hover {
-  background-color: transparent;
+  /*disabling transparency on cellphone
+    background-color: transparent;*/
 }
 
 /*------------  Responsive BG  --------*/
