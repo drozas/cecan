@@ -826,12 +826,13 @@ td.field-multiple-drag,
 .breadcrumb {
   margin-bottom: 5px;
 }
+/*drozas: overwritten because of issue with breadcrumb padding*/
 .breadcrumb li.item-1:before {
   content: "\e021";
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 8px;
 }
 .field-type-datetime .field-multiple-table td label.control-label {
   display: none;
