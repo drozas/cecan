@@ -622,3 +622,7 @@ html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage
 html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-innerpage.not-front.path-events.navbar-is-fixed-top div.main-container.container.js-quickedit-main-content div.row div.col-sm-12 div.mb-menu-horizontal.mb-menu-dropdown.region.region-header section#block-icemagic-breadcrumbs.clearfix.block.block-system ol.breadcrumb-with-home.breadcrumb-with-title.breadcrumb li.item-1{
 	padding-right: 8px;
 }
+
+.breadcrumb li.item-1 {
+    padding-right: 8px;
+}
