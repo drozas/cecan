@@ -334,7 +334,8 @@ header#navbar .navbar-nav .dropdown a.active,
 
 @media (max-width: 767px) {
   header#navbar .navbar-toggle {
-    background-color: transparent;
+  /*disabling transparency on cellphone
+    background-color: transparent;*/
   }
   header#navbar ul.navbar-nav {
     border-color: #006083;
