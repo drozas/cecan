@@ -303,7 +303,7 @@ aside .block {
 
 /*------------  Transparent BG  --------*/
 
-header#navbar li>a:focus,
+/*header#navbar li>a:focus,
 header#navbar li>a:hover,
 header#navbar li>a.active,
 header#navbar li a:focus,
@@ -327,17 +327,17 @@ header#navbar .navbar-nav .dropdown a.active,
 .btn-auqa5,
 .footer-wrap .nav>li>a:focus,
 .footer-wrap .nav>li>a:hover {
-  /*disabling transparency on cellphone
-    background-color: transparent;*/
-}
+  disabling transparency on cellphone
+    background-color: transparent;
+}*/
 
 /*------------  Responsive BG  --------*/
 
 @media (max-width: 767px) {
-  header#navbar .navbar-toggle {
-  /*disabling transparency on cellphone
-    background-color: transparent;*/
-  }
+  /*header#navbar .navbar-toggle {
+  disabling transparency on cellphone
+    background-color: transparent;
+  }*/
   header#navbar ul.navbar-nav {
     border-color: #006083;
   }
@@ -364,11 +364,11 @@ header#navbar .navbar-nav .dropdown a.active,
   header#navbar .navbar-scrolled .navbar-nav .open .dropdown-menu>li>a:hover {
     color: #98adc1;
   }
-  header#navbar .navbar-toggle,
+  /*header#navbar .navbar-toggle,
   header#navbar .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: transparent;
-  }
+  }*/
   header#navbar ul.navbar-nav,
   header#navbar .nav .open>a,
   .nav .open>a:hover,
