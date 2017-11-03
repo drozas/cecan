@@ -631,3 +631,8 @@ html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-innerpage
 .breadcrumb li.item-1 {
     padding-right: 8px;
 }
+
+// drozas: adding padding for items in frontpage boxes
+.frontpage-block-element{
+	padding-bottom: 20px;
+}
