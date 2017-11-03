@@ -635,12 +635,10 @@ html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-innerpage
 // drozas: adding padding for items in frontpage boxes
 #frontpage-block-element{
 	padding-bottom: 20px;
-	padding-top: 20px;
-	min-height: 43px;
 }
 
 .frontpage-block-element{
-	padding-bottom: 20px;
-	min-height: 43px;
-	font-size: 80px;
+    min-height: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
