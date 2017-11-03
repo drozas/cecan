@@ -329,7 +329,7 @@ header#navbar .navbar-nav .dropdown a.active,
 .btn-auqa5,
 .footer-wrap .nav>li>a:focus,
 .footer-wrap .nav>li>a:hover {
-    background-color: #183E6C;
+    background-color: #0F3766;
 }
 
 /*------------  Responsive BG  --------*/
@@ -338,7 +338,7 @@ header#navbar .navbar-nav .dropdown a.active,
   /*drozas: fixing colour*/
   header#navbar .navbar-toggle {
   disabling transparency on cellphone
-    background-color: #183E6C;
+    background-color: #0F3766;
   }
   header#navbar ul.navbar-nav {
     border-color: #006083;
@@ -370,7 +370,7 @@ header#navbar .navbar-nav .dropdown a.active,
   header#navbar .navbar-toggle,
   header#navbar .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #183E6C;
+    border-color: #0F3766;
   }
   header#navbar ul.navbar-nav,
   header#navbar .nav .open>a,

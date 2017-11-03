@@ -603,7 +603,7 @@ a.logo.navbar-btn.pull-left img {
 
 // drozas: issues with transparency
 header#navbar .navbar-header{
-	background-color: #183E6C;
+	background-color: #0F3766;
 }
 
 /*html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top header#navbar.navbar.navbar-fixed-top.scroll-top.affix-top div.container div.navbar-header{
@@ -611,7 +611,7 @@ header#navbar .navbar-header{
 }*/
 
 html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top header#navbar.navbar.navbar-fixed-top.affix-top.scroll-top{
-	background-color: #183E6C;		
+	background-color: #0F3766;		
 }
 
 // drozas: adding more padding to the home icon
