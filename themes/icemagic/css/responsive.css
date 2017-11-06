@@ -207,7 +207,16 @@
 }
 #block-homepagewelcomeblock{
     display: none;   
+}
+
+// Buttons home block
+.block-homepagebuttons{
+    display: none;
+}
+#block-homepagebuttons{
+    display: none;   
 } 
+
 
 }
 
