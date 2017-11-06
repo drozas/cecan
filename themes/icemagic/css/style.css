@@ -679,6 +679,5 @@ a.button-ng:active{
 }
 
 #buttons-table{
-	font-size:10px;
-	padding: 90px;
+	margin-top: -125px;
 }
