@@ -681,3 +681,7 @@ a.button-ng:active{
 #buttons-table{
 	margin-top: -125px;
 }
+
+html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-frontpage.node--type-page.navbar-is-fixed-top section.content-about.plugin-content div.container div.mb-menu-vertical.mb-menu-dropdown.region.region-content-about section#block-homepagebuttons.clearfix.block.block-block-content div.clearfix.field.field-block-content--body.field-name-body.field-type-text-with-summary.field-label-hidden div.field-items div.field-item table#buttons-table tbody tr td{
+	padding: 5px;
+}
