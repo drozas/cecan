@@ -682,6 +682,10 @@ a.button-ng:active{
 	margin-top: -125px;
 }
 
-#buttons-table.td{
+#buttons-table td{
+	padding: 5px;
+}
+
+.buttons-table td{
 	padding: 5px;
 }
