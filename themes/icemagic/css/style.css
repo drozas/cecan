@@ -645,7 +645,7 @@ html.js body.mbase-child-theme.hide-main-container.user-anonymous.path-innerpage
 
 // drozas: CSS from buttons recommended by Nigel
   /* @import url(https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);*/
-#button-ng{{
+#button-ng{
 	font-size:10px;
 }
 
