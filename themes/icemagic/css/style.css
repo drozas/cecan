@@ -748,6 +748,11 @@ header#navbar .aqua-scrolled {
   height: auto;
 }
 
+/* drozas: adding underlined links by default for every node - issue #121 */
+.field-node--body a{
+  text-decoration: underline;
+}
+
 .field-node--body iframe {
   max-width: 100%;
 }
