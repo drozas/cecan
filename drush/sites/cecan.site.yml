@@ -1,5 +1,0 @@
-prod:
-  paths:
-    dump-dir: /tmp
-  root: /data/cecanv2
-  uri: https://cecan.ac.uk
